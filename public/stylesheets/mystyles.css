@@ -1,0 +1,80 @@
+/*body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+  }*/
+
+.img-center {
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+}
+
+.navbar-nav, a {
+    margin-top: 10px;
+    background-color: #F8F8F8;
+    border-color: #e7e7e7;
+    color: #147646;
+}
+.icon-bar {background-color: #000;}
+
+/* shows border when tabbing through focusable elements like links */
+:focus{ border: 2px solid #4285F4 !important;}
+
+/* changing colour of the 'btn' class to destek colours */
+.btn {
+	background-color: #147646;
+	color: #FFF;
+}
+
+footer { margin: 30px 0; }
+#layout {
+background-color: #EEE;
+margin-top: 0.5em;
+margin-bottom: 0.5em;
+/* margins are used here to give the container space from the header and footer */
+}
+
+#footer {
+background-color: #147646;
+color: #FFF;
+}
+
+.form-control {
+margin-bottom: 2em;
+}
+
+#header {
+background-color: #147646;
+color: #FFF;
+}
+/* this div id is for the textareas code snippet field */
+#code_snippet {
+margin-top: 0.33em;
+line-height: 1.5em;
+width: 100%;
+padding: 0.25em;
+border: 0.2em solid #222;
+font-size: inherit;
+height: 15em;
+background-color: #FF9;
+resize: none;
+}
+/* this div class is for the textareas description and action required fields */
+.error_des_action_req {
+margin-top: 0.33em;
+line-height: 1.5em;
+width: 100%;
+padding: 0.25em;
+border: 0.2em solid #222;
+font-size: inherit;
+height: 15em;
+resize: none;
+}
+/* This is styling for the custom messages */
+p.message {
+	border: 2px solid #8D0D19;
+	color: #8D0D19; font-weight: bold;
+	margin: 1em 0 ; padding: 1em;
+}
+label.failed {
+	border: red thin solid;
+}
